@@ -1,0 +1,60 @@
+<svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="maskGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffcc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0099ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="chakraGlow">
+      <stop offset="0%" style="stop-color:#00ffcc;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0099ff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <ellipse cx="70" cy="75" rx="35" ry="30" fill="#1a1a2e"/>
+  
+  <g>
+    <path d="M 55,70 L 62,80" stroke="url(#maskGradient)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 85,70 L 78,80" stroke="url(#maskGradient)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="59" cy="75" r="8" fill="url(#chakraGlow)"/>
+    <circle cx="81" cy="75" r="8" fill="url(#chakraGlow)"/>
+  </g>
+  
+  <rect x="35" y="40" width="70" height="12" fill="#2d2d44"/>
+  <rect x="45" y="43" width="50" height="6" fill="url(#maskGradient)"/>
+  <text x="70" y="52" font-family="monospace" font-size="14" fill="#00ffcc" text-anchor="middle" font-weight="bold">&lt;/&gt;</text>
+  
+  <ellipse cx="70" cy="115" rx="30" ry="8" fill="#000" opacity="0.3"/>
+  
+  <text x="140" y="85" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="800">
+    <tspan fill="#2d2d44">the</tspan>
+    <tspan fill="url(#maskGradient)" font-family="Courier New, monospace">coder</tspan>
+  </text>
+  
+  <text x="140" y="125" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="800">
+    <tspan fill="url(#shadowGradient)" font-style="italic">kage</tspan>
+  </text>
+  
+  <text x="140" y="140" font-family="serif" font-size="16" fill="#764ba2" opacity="0.6">
+    コーダー影
+  </text>
+  
+  <g opacity="0.15">
+    <text x="150" y="25" font-family="monospace" font-size="10" fill="#667eea">
+      function shadowClone() { return this.clone(); }
+    </text>
+    <text x="350" y="130" font-family="monospace" font-size="10" fill="#764ba2">
+      const jutsu = await ninja.execute();
+    </text>
+  </g>
+  
+  <path d="M 460,50 L 445,53 L 445,47 Z" fill="url(#maskGradient)"/>
+  <text x="440" y="55" font-family="monospace" font-size="20" fill="url(#maskGradient)" font-weight="bold">&gt;</text>
+  
+  <circle cx="120" cy="60" r="3" fill="#00ffcc" opacity="0.5"/>
+  <circle cx="130" cy="100" r="2" fill="#0099ff" opacity="0.4"/>
+</svg>
