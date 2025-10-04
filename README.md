@@ -1,7 +1,7 @@
 <p align="center">
   <img src="/thecoderkage-logo.svg" alt="Banner" width="800"/>
 </p>
-<h1 align="center">Hi,I'm TheCoderKage</h1>
+<h1 align="center">Hi, TheCoderKage Desu</h1>
 <h3 align="center">Dev suffering from too many ideas 🤯😶‍🌫️😵‍💫</h3>
 
 - 🌱 I’m currently learning **Backend**
